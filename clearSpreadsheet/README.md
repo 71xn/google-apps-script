@@ -3,7 +3,7 @@
 ## Demo
 ![alt text](https://github.com/71xn/google-apps-script/blob/main/clearSpreadsheet/script-demo.gif "Text 1")
 
-## Code
+## [Code](https://github.com/71xn/google-apps-script/blob/main/clearSpreadsheet/script.gs)
 ```javascript
 function onOpen() {
     var ui = SpreadsheetApp.getUi();
