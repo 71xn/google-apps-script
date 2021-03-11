@@ -1,7 +1,7 @@
 # Time Based Spreadsheet Clearing 
 
 ## Demo
-![alt text](https://github.com/71xn/google-apps-script/clearSpreadsheet/script-demo.gif "Text 1")
+![alt text](https://github.com/71xn/google-apps-script/blob/main/clearSpreadsheet/script-demo.gif "Text 1")
 
 ## Code
 ```javascript
@@ -19,4 +19,4 @@ function onOpen() {
 ```
 
 ## Trigger Setup
-![alt text](https://github.com/71xn/google-apps-script/clearSpreadsheet/trigger.png "Text 1")
+![alt text](https://github.com/71xn/google-apps-script/blob/main/clearSpreadsheet/trigger.png "Text 1")
