@@ -3,7 +3,7 @@
 ## Demo
 ![alt text](https://github.com/71xn/google-apps-script/blob/main/ISA/studentSupportTeam/demo.gif "Text 1")
 
-## [Code]()
+## [Code](https://github.com/71xn/google-apps-script/blob/main/ISA/studentSupportTeam/script.gs)
 ```javascript
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
