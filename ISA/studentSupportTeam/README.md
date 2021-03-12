@@ -1,7 +1,7 @@
 # Internal ISA SST Form Scripts - Data Archiving + Word Wrap
 
 ## Demo
-![alt text]( "Text 1")
+![alt text](https://github.com/71xn/google-apps-script/blob/main/ISA/studentSupportTeam/demo.gif "Text 1")
 
 ## [Code]()
 ```javascript
@@ -48,6 +48,3 @@ function wordWrap() {
   range.setWrap(true);
 }
 ```
-
-## Trigger Setup
-![alt text](https://github.com/71xn/google-apps-script/blob/main/clearFormResponses/trigger.png "Text 1")
