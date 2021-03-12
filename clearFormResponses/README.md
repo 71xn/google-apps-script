@@ -1,7 +1,7 @@
 # Time Based Form Responses Spreadsheet Clearing 
 
 ## Demo
-![alt text](https://github.com/71xn/google-apps-script/blob/main/clearFormResponses/script-demo.gif "Text 1")
+![alt text](https://github.com/71xn/google-apps-script/blob/main/clearFormResponses/demo.gif "Text 1")
 
 ## [Code](https://github.com/71xn/google-apps-script/blob/main/clearFormResponses/script.gs)
 ```javascript
