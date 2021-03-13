@@ -36,6 +36,7 @@ function archive() {
   newSheetRange.setValues(responsesValues); // Copies over the form responses data to the new sheet
 
   clearRange(); // Clears the form responses sheet - https://github.com/71xn/google-apps-script/tree/main/clearFormResponses
+  newSheetRange.setWrap(true);
 }
 
 function wordWrap() {
