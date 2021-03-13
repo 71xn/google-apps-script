@@ -39,7 +39,8 @@ function archive() {
   var newSheetRange = newSheet.getRange(1, 1, rows, cols); 
   newSheetRange.setValues(responsesValues); 
 
-  clearRange(); 
+  clearRange();
+  newSheetRange.setWrap(true);
 }
 
 function wordWrap() {
