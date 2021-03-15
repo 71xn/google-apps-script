@@ -1,5 +1,5 @@
 // Time Based Form Responses Spreadsheet Clearing 
-// Finn Lestrange - 12/03/21
+// Finn Lestrange - 5/03/21
 
 function onOpen() {
   // Menu override incase the data is not cleared properly
@@ -13,6 +13,10 @@ function clearRange() {
   var sheetName = 'Form responses 1'; // Replace with the actual name of the sheet
   var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
   var firstRowToDelete = 2;
-  var numberToDelete = sheet.getLastRow() - firstRowToDelete + 1;
-  sheet.deleteRows(firstRowToDelete, numberToDelete);
+  var numberToDelete = sheet.getMaxRows() - (firstRowToDelete + 1);
+  if (numberToDelete == 0) {
+    return null;
+  } else {
+    sheet.deleteRows(firstRowToDelete, numberToDelete);
+  }
 }

@@ -13,11 +13,15 @@ function onOpen() {
 }
 
 function clearRange() {
-  var sheetName = 'Form responses 1'; 
+  var sheetName = 'Form responses 1';
   var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
   var firstRowToDelete = 2;
-  var numberToDelete = sheet.getLastRow() - firstRowToDelete + 1;
-  sheet.deleteRows(firstRowToDelete, numberToDelete);
+  var numberToDelete = sheet.getMaxRows() - (firstRowToDelete + 1);
+  if (numberToDelete == 0) {
+    return null;
+  } else {
+    sheet.deleteRows(firstRowToDelete, numberToDelete);
+  }
 }
 ```
 
