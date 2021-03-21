@@ -1,5 +1,5 @@
 // Board Archive Script
-// Finn Lestrange - 16/03/21
+// Finn Lestrange - 21/03/21
 
 function onOpen() {
     var ui = SpreadsheetApp.getUi();
@@ -19,7 +19,7 @@ function onOpen() {
     var cols = sourceValues[0].length; 
   
     var newSheetName = Browser.inputBox('Please enter the name of the new sheet:', Browser.Buttons.OK_CANCEL);
-    SpreadsheetApp.getActiveSpreadsheet().insertSheet(newSheetName); 
+    SpreadsheetApp.getActiveSpreadsheet().insertSheet(newSheetName, 99); 
     var newSheet = SpreadsheetApp.getActive().getSheetByName(newSheetName); 
   
     var newSheetRange = newSheet.getRange(1, 1, rows, cols); 
