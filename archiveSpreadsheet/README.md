@@ -23,7 +23,7 @@ function archive() {
   var cols = sourceValues[0].length; 
 
   var newSheetName = Browser.inputBox('Please enter the name of the new sheet:', Browser.Buttons.OK_CANCEL);
-  SpreadsheetApp.getActiveSpreadsheet().insertSheet(newSheetName); 
+  SpreadsheetApp.getActiveSpreadsheet().insertSheet(newSheetName, 99); 
   var newSheet = SpreadsheetApp.getActive().getSheetByName(newSheetName); 
 
   var newSheetRange = newSheet.getRange(1, 1, rows, cols); 
