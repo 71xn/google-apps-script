@@ -9,6 +9,7 @@ function onOpen() {
       .addToUi();
 }
 
+
 function clearRange() {
   var sheetName = 'Form responses 1'; // Replace with the actual name of the sheet
   var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
